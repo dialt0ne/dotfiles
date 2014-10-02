@@ -1,0 +1,8 @@
+width 132
+height 50
+defscrollback 8192
+bindkey ^t screen
+bindkey ^[[D prev
+bindkey ^[[C next
+hardstatus alwayslastline
+hardstatus string '%{= kg}[%{B}%H%{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{c}%c%{g}]'
