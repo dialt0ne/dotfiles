@@ -6,3 +6,4 @@ set ruler
 command Py !pyflakes % && pep8 %
 autocmd BufNewFile,BufRead *.json set ft=javascript
 nnoremap <silent> <C-l> :nohl<CR><C-l>
+syntax on
